@@ -1,4 +1,4 @@
-# LinkedIn Data Scraper
+# Salary Recommendation:
 
 ## Overview
 This project allows users to extract data from LinkedIn profiles and job postings. By providing LinkedIn credentials and URLs, users can fetch skills, certifications, and other profile details. The project also supports job scraping for descriptions, locations, and other related data.
