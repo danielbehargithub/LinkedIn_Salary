@@ -16,17 +16,17 @@ Run scripts in Google Colab (click ipymb file to find link to colab). No previou
 
 ## 1. Scraping LinkedIn Profile and Job
 There are two ways to scrape your LinkedIn's data:
-1. Automaticly by providing LinkedIn credentials
+1. Automatically by providing LinkedIn credentials
 2. Manually saving html's of your profile and uploading it.
    
-In both ways we will recieve the same result.
+In both ways we will receive the same result.
 In addition, we will scrape your job data that you are interested in.
 
 ### Option 1:
 
 1. Open the `Profile_Data.ipynb` script in Google Colab.
 2. Click on Runtime -> Run all
-3. Input your LinkedIn credentials (email and password), the URL of your LinkedIn profile and the job url in the script.
+3. Upload your LinkedIn credentials (email and password), the URL of your LinkedIn profile and the job url in the script.
 - **Privacy**: Ensure all LinkedIn credentials are securely managed and not hardcoded in public repositories.
 - Your LinkedIn credentials and URL are used locally and are not shared with any third party. This ensures the security of your personal information. The script is run locally or on Colab, so you maintain full control of your data.
 
@@ -36,7 +36,7 @@ In addition, we will scrape your job data that you are interested in.
 - **LinkedIn Profile URL:** `https://www.linkedin.com/in/your-profile-id/`
 - **Job URL:** `https://www.linkedin.com/jobs/view/job_number/`
 
-3. You will recieve two files, one for the LinkedIn profile and the other for the job data.
+3. You will receive two files, one for the LinkedIn profile and the other for the job data.
 
 ### Option 2:
 
@@ -48,7 +48,7 @@ In addition, we will scrape your job data that you are interested in.
 - **LinkedIn Html:** my.html or my.txt  
 - **Job URL:** `https://www.linkedin.com/jobs/view/job_number/`
 
-3. You will recieve two files, one for the LinkedIn profile and the other for the job data.
+3. You will receive two files, one for the LinkedIn profile and the other for the job data.
 
 ### 2. Model: To be continued
   
