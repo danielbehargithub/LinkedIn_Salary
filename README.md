@@ -14,7 +14,7 @@ Run scripts in Google Colab (click ipymb file to find link to colab). No previou
 
 ## Instructions
 
-### 1. Scraping LinkedIn Profile and Job
+## 1. Scraping LinkedIn Profile and Job
 There are two ways to scrape your LinkedIn's data:
 1. Automaticly by providing LinkedIn credentials
 2. Manually saving html's of your profile and uploading it.
@@ -22,7 +22,7 @@ There are two ways to scrape your LinkedIn's data:
 In both ways we will recieve the same result.
 In addition, we will scrape your job data that you are interested in.
 
-## Option 1:
+### Option 1:
 
 1. Open the `Profile_Data.ipynb` script in Google Colab.
 2. Click on Runtime -> Run all
@@ -38,7 +38,7 @@ In addition, we will scrape your job data that you are interested in.
 
 3. You will recieve two files, one for the LinkedIn profile and the other for the job data.
 
-## Option 2:
+### Option 2:
 
 1. Open the `Profile_Data_Without_Auth.ipynb` script in Google Colab.
 2. Click on Runtime -> Run all
@@ -50,7 +50,7 @@ In addition, we will scrape your job data that you are interested in.
 
 3. You will recieve two files, one for the LinkedIn profile and the other for the job data.
 
-### 3. To be continued
+### 2. Model: To be continued
   
 # Disclaimer
 This project is for educational purposes only.
