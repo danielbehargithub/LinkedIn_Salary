@@ -1,81 +1,64 @@
 # Salary Recommendation:
 
 ## Overview
-This project allows users to extract data from LinkedIn profiles and job postings. By providing LinkedIn credentials and URLs, users can fetch skills, certifications, and other profile details. The project also supports job scraping for descriptions, locations, and other related data.
+This project allows users to extract data from LinkedIn profiles and job postings. By providing LinkedIn credentials and URLs, users can fetch skills, certifications, and other profile details.
+
+If you prefer not to provide credentials, alternative methods like uploading HTML files or using LinkedIn’s data export feature are available.
 
 ---
 
-## Enviroment
+## **Environment**
 Run scripts in Google Colab (click ipymb file to find link to colab). No previous downloads or installations are needed if running the provided scripts in Google Colab.
 
 ---
 
 ## Instructions
 
-### 1. Scraping LinkedIn Profile
-1. Open the `profile_data.py` script.
-2. Input your LinkedIn credentials (email and password) and the URL of your LinkedIn profile in the script.
-* Note about privacy in end of text
+### 1. Scraping LinkedIn Profile and Job
+There are two ways to scrape your LinkedIn's data:
+1. Automaticly by providing LinkedIn credentials
+2. Manually saving html's of your profile and uploading it.
+   
+In both ways we will recieve the same result.
+In addition, we will scrape your job data that you are interested in.
 
-**Example input:**
+## Option 1:
 
-* LinkedIn Email: your_email@example.com
-* LinkedIn Password: your_password
-* LinkedIn Profile URL: https://www.linkedin.com/in/your-profile-id/
-
-4. Run the script to process the profile URL and extract the list of skills. The output will be a complete list of skills found on the LinkedIn profile.
-
-### 2. Scraping Job Postings
-1. Open the `job_data.py` script.
-2. Input the job posting URL(s).
-3. Run the script to extract job-related details.
-
-### 3. To be continued
-
-## Notes
+1. Open the `Profile_Data.ipynb` script in Google Colab.
+2. Click on Runtime -> Run all
+3. Input your LinkedIn credentials (email and password), the URL of your LinkedIn profile and the job url in the script.
 - **Privacy**: Ensure all LinkedIn credentials are securely managed and not hardcoded in public repositories.
 - Your LinkedIn credentials and URL are used locally and are not shared with any third party. This ensures the security of your personal information. The script is run locally or on Colab, so you maintain full control of your data.
-  
-## Optional Alternatives
-If you prefer not to input your LinkedIn credentials, alternative methods can be explored:
 
-1. Manually Download HTML: Use your browser to save the HTML of your LinkedIn profile (skills) and upload it for processing.
+#### **Example Input:**
+- **LinkedIn Email:** your_email@example.com  
+- **LinkedIn Password:** your_password  
+- **LinkedIn Profile URL:** `https://www.linkedin.com/in/your-profile-id/`
+- **Job URL:** `https://www.linkedin.com/jobs/view/job_number/`
 
-2. LinkedIn allows downloading your profile data directly. Use this method to retrieve skills and other profile details.
+3. You will recieve two files, one for the LinkedIn profile and the other for the job data.
 
-* This methods will be limited as in comparision to the way recomended.
+## Option 2:
+
+1. Open the `Profile_Data_Without_Auth.ipynb` script in Google Colab.
+2. Click on Runtime -> Run all
+3. Input your LinkedIn Html files (experience, education, skills) and the job url in the script.
+- Full Guide below
+#### **Example Input:**
+- **LinkedIn Html:** my.html or my.txt  
+- **Job URL:** `https://www.linkedin.com/jobs/view/job_number/`
+
+3. You will recieve two files, one for the LinkedIn profile and the other for the job data.
+
+### 3. To be continued
   
 # Disclaimer
 This project is for educational purposes only.
 
+## Quick Guide to Saving the HTML Pages
+Example: Saving the HTML of the Skills page allows you to process your data locally.
 
-## Quick Guide to Downloading Your LinkedIn Data 
-LinkedIn allows users to download their profile data directly. Follow these steps:
-
-Log in to Your LinkedIn Account:
-
-Sign in to your LinkedIn account.
-Go to Settings:
-
-Click on your profile picture in the top-right corner.
-Select Settings & Privacy from the dropdown menu.
-Navigate to Data Privacy:
-
-On the left-hand menu, click Data Privacy.
-Request Your Data:
-
-Under "How LinkedIn uses your data" section, click "Get a copy of your data".
-
-Choose "Want something in particular?", and check all boxes.
-
-Click Request archive.
-Confirm Your Request:
-
-LinkedIn will prompt you to enter your password for verification.
-You’ll receive an email with a download link within a few minutes to a few hours.
-
-## Quick Guide to Saving the HTML of the Skills Page
-Saving the HTML of the Skills page allows you to process your data locally. Here’s how:
+### Same idea for other Html pages.
 
 Open the Skills Page:
 
@@ -96,3 +79,4 @@ Click Save.
 Verify the File:
 
 Open the saved file in a text editor (like Notepad or VS Code) to confirm that all the desired content is included.
+
