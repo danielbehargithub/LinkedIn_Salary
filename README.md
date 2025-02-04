@@ -96,5 +96,7 @@ It does not store user data, nor does it guarantee accuracy in salary estimation
 - ✅ Build a **browser extension** for LinkedIn scraping.
 
 ---
+![image](https://github.com/user-attachments/assets/04bd1bf0-ef53-4a4a-97de-9817e9e4d5e0)
+
 
 
