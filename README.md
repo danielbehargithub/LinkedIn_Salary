@@ -68,7 +68,7 @@ This project allows users to extract data from LinkedIn profiles and job posting
    - 📌 **Matching Score** → % match & skill improvement suggestions.
      ![newplot (5)](https://github.com/user-attachments/assets/30cbe79b-ab52-4897-8d2a-f4687827d1bd)
      
-   - **Get information about skills you might want to improve to increase your odds of getting the job:
+   - **Get information** about skills you might want to improve to increase your odds of getting the job:
 
    - 💰 **Salary Range** → Estimated based on skills & job market data.
 ![image](https://github.com/user-attachments/assets/04bd1bf0-ef53-4a4a-97de-9817e9e4d5e0)
