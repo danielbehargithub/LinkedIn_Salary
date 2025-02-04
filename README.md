@@ -71,6 +71,8 @@ This project allows users to extract data from LinkedIn profiles and job posting
    - 💰 **Salary Range** → Estimated based on skills & job market data.
 ![image](https://github.com/user-attachments/assets/04bd1bf0-ef53-4a4a-97de-9817e9e4d5e0)
 
+   - **Get information about skills you might want to improve to increase your odds of getting the job:
+
 ---
 
 ## 🔐 Security Considerations
