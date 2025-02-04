@@ -66,7 +66,10 @@ This project allows users to extract data from LinkedIn profiles and job posting
    - 'full_model.pkl' (from git folder)
 4. **Outputs:**
    - 📌 **Matching Score** → % match & skill improvement suggestions.
+     ![newplot (5)](https://github.com/user-attachments/assets/30cbe79b-ab52-4897-8d2a-f4687827d1bd)
+
    - 💰 **Salary Range** → Estimated based on skills & job market data.
+![image](https://github.com/user-attachments/assets/04bd1bf0-ef53-4a4a-97de-9817e9e4d5e0)
 
 ---
 
@@ -96,7 +99,7 @@ It does not store user data, nor does it guarantee accuracy in salary estimation
 - ✅ Build a **browser extension** for LinkedIn scraping.
 
 ---
-![image](https://github.com/user-attachments/assets/04bd1bf0-ef53-4a4a-97de-9817e9e4d5e0)
+
 
 
 
