@@ -1,0 +1,32 @@
+Experience Section:
+
+Company       : Israel Defense Forces
+Duration      : 4 yrs
+--------------------------------------------------
+  Job Title    : Logistics Officer
+  Job Type     : N/A
+  Job Duration : Apr 2017 - Nov 2019 · 2 yrs 8 mos
+  Location     : N/A
+  Description  : N/A
+  Skills       : N/A
+  --------------------------------------------------
+  Job Title    : Logistics Assistant
+  Job Type     : N/A
+  Job Duration : Dec 2015 - Apr 2017 · 1 yr 5 mos
+  Location     : N/A
+  Description  : N/A
+  Skills       : N/A
+  --------------------------------------------------
+
+Education Section:
+
+Institution     : Technion - Israel Institute of Technology
+Date Range      : Oct 2020
+Description     : N/A
+Skills          : Statistical Data Analysis, Apache Spark, Java, Data Structures, PyTorch, Deep Learning, Django
+Additional Text : N/A
+--------------------------------------------------
+
+Skills Section:
+Unique skills: Apache Spark, Data Analysis, Data Structures, Deep Learning, Django, HTML, Java, PyTorch, Python (Programming Language), SQL, Statistical Data Analysis
+--------------------------------------------------

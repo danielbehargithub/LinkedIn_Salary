@@ -1,0 +1,47 @@
+Job Title    : Data Engineer
+Company      : LSports 
+Location     :  Ashkelon, South District, Israel
+Description  : LSports is the leading global provider of sports data, dedicated to revolutionizing the industry through innovative solutions. We excel in sports data collection and analysis, advanced data management, and cutting-edge services like AI-based sports tips and high-quality sports visualization. As the sports data industry continues to grow, LSports remains at the forefront, delivering real-time solutions.
+
+If you share our passion for sports and technology and have the drive to advance the sports-tech and data industries, we invite you to join our team!
+
+
+
+
+If you share our love of sports and tech, you've got the passion and will to better the sports-tech and data industries - join the team! We are looking for a highly motivated Data Engineer.
+
+
+
+
+About the team: Data Integrity
+
+LSports Data Integrity is one of the main pillars of the company's offering and long-term strategy.
+
+We are pushing the boundaries of real-time analysis, utilizing machine learning and artificial intelligence to find the delicate balance between low latency and data accuracy.
+
+
+
+
+Responsibilities:
+
+Building production-grade data pipelines and services
+Design and Build data-lake/lakehouse
+Taking ownership of major projects from inception to deployment
+Architecting simple yet flexible solutions, and then scaling them as we grow
+Collaborating with cross-functional teams to ensure data integrity, security, and optimal performance across various systems and applications.
+Staying current with emerging technologies and industry trends to recommend and implement innovative solutions that enhance data infrastructure and capabilities.
+
+
+
+
+Requirements:
+
+3+ years of experience delivering production-grade data pipelines and backend services
+2+ years of experience using PySpark
+Experience building data pipelines, and working in distributed architectures
+Experience with SQL and NoSQL Databases
+Knowledge and understanding of work in a modern CI environment: Git, Docker, K8S
+Experience with ETL tools: AWS Glue/Apache Airflow/Prefect, etc.
+Experience with Snowflake/Databricks/BigQuery or similar
+Experience with Kafka
+Experience with designing and implementing data lake/warehouse – Advantage
