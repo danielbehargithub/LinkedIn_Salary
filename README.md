@@ -30,37 +30,40 @@ This project allows users to extract data from LinkedIn profiles and job posting
 ### **Option 1: Automated Scraping (With Credentials)**
 
 1. Open **`Profile_Data.ipynb`** in Google Colab.
-2. Enter:
+2. Click `Runtime → Run all`.
+3. Enter:
    - **LinkedIn Email**: `your_email@example.com`
    - **LinkedIn Password**: `your_password`
    - **LinkedIn Profile URL**: `https://www.linkedin.com/in/your-profile-id/`
    - **Job URL**: `https://www.linkedin.com/jobs/view/job_number/`
-3. Click `Runtime → Run all`.
 4. **Outputs**:  
    ✅ `profile_data.txt` (LinkedIn profile)  
    ✅ `job_details.txt` (Job posting)  
+- Examples inside Data folder
 
 ### **Option 2: Manual Upload (No Credentials Needed)**
 
 1. Open **`Profile_Data_Without_Auth.ipynb`** in Google Colab.
-2. Upload your saved LinkedIn **HTML files**:
+2. Click `Runtime → Run all`.
+3. Upload your saved LinkedIn **HTML files**:
    - **Experience**
    - **Education**
    - **Skills**
-3. Enter the **Job URL**: `https://www.linkedin.com/jobs/view/job_number/`
-4. Click `Runtime → Run all`.
+4. Enter the **Job URL**: `https://www.linkedin.com/jobs/view/job_number/`
 5. **Outputs**:  
    ✅ `profile_data.txt` (LinkedIn profile)  
    ✅ `job_details.txt` (Job posting)  
+- Examples inside Data folder
 
 ---
 
 ## 📊 **Step 2: Get Matching Score & Salary Estimate**
 1. Open **`Wage_and_Similarity.ipynb`** in Google Colab.
-2. Upload the extracted files:
+2. Click `Runtime → Run all`.
+3. Upload the extracted files:
    - `profile_data.txt`
    - `job_details.txt`
-3. Click `Runtime → Run all`.
+   - 'full_model.pkl' (from git folder)
 4. **Outputs:**
    - 📌 **Matching Score** → % match & skill improvement suggestions.
    - 💰 **Salary Range** → Estimated based on skills & job market data.
