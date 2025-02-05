@@ -87,6 +87,8 @@ This project allows users to extract data from LinkedIn profiles and job posting
 2. Press `Ctrl + Shift + I` (or `Cmd + Option + I` on Mac) → Open Developer Tools.
 3. Right-click `<html>` → `Save As...` → Choose **"Web Page, HTML Only"**.
 4. Upload the `.html` file when running the script.
+5. Do the same for you Education page and experience page. you should have 3 html files in total.
+ *in a case you cant enter those sections enter /details/the section you want/ to the url line
 
 ---
 
