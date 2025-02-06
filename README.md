@@ -83,7 +83,7 @@ This project allows users to extract data from LinkedIn profiles and job posting
 ---
 
 ## 💾 **Saving LinkedIn HTML Pages (Manual Method)**
-1. Open your LinkedIn **Skills Page**.
+1. Open your LinkedIn **Skills Page**: https://www.linkedin.com/in/my-profile/details/skills/
 2. Press `Ctrl + Shift + I` (or `Cmd + Option + I` on Mac) → Open Developer Tools.
 3. Right-click `<html>` → `Save As...` → Choose **"Web Page, HTML Only"**.
 4. Upload the `.html` file when running the script.
